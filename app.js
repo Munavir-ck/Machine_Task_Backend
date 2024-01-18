@@ -23,7 +23,7 @@ app.listen(port, () => {
 });
 app.use(
   cors({
-    origin: ["http://localhost:3001"],
+    origin: ["https://frontendapp-gi55.onrender.com"],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     credentials: true,
   })
